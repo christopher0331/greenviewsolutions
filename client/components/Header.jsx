@@ -1,11 +1,16 @@
 import React from 'react';
 import '../../public/styles.css'
-import firstImage from '../assets/firstImage.jpg';
+import logo from '../assets/clearGVSLogo.png';
+import Menu from './Menu.jsx';
 
 const Banner = () => (
-    <div id="outerHeaderShell">
-        <img id="headerBannerImage" src={firstImage}></img>
+    <div>
+        <div id="outerHeaderShell">
+                <img id="headerBannerImage" src={logo}></img>
+        </div>
+        <Menu />
     </div>
+    
 );
 
 export default Banner;

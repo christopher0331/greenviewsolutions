@@ -1,8 +1,40 @@
 #headerBannerImage {
-    height: 5%;
-    width: 100%;
+    height: 300px;
+    width: 300px;
+
 }
 
 #outerHeaderShell {
-    margin: -2px -2px;
+    display: flex;
+    justify-content: center;  
+    height: 35vh;
+    width: 100vw;
+    background-color:rgb(8, 46, 8);
 }
+
+.appShell {
+    margin: -8px -8px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: rgb(8, 46, 8);
+    font-size: 25px;
+    font-family: 'Verdana';
+}
+
+.menu:hover{
+    cursor: pointer;    
+}
+
+.menuItem {
+    padding: 5px 20px;
+    transition: all .2s ease-in-out;
+}
+
+.menuItem:hover{
+    transform: scale(1.1);
+}
+
